@@ -1,3 +1,11 @@
+/*Noah What to do: 
+-Keep it simple
+-Give Proper names that follow format
+-Destroy anything not needed
+-Finish it
+*/
+
+
 @charset "utf-8";
 body 
 {
@@ -73,9 +81,10 @@ nav ul li a
   /* Styles pour les sections */
 section.zonebeige 
 {
-    padding: 20px;
-    background-color: #33d7ab;
+    padding: 40px;
+    background-image: linear-gradient(#49803d, #c4f5af);
     margin-bottom: 20px;
+    text-align: center;
 }
   
 section h2 
@@ -88,13 +97,11 @@ section h2
 section p 
 {
     font-size: 1em;
-    background-color: #fff;
 }
 
 section p.paragraphebeige
 {
     font-size: 1em;
-    background-color: #33d7ab;
 }
   
 section a 
@@ -138,8 +145,23 @@ footer nav ul li
     margin-right: 20px;
 }
   
-footer nav ul li:last-child 
+footer nav ul li:last-child  
 {
     margin-right: 0;
     background-color: #383e52;
+}
+
+/*DAVID EDITZ*/
+.flex{
+    display: flex;
+    
+}
+
+.img-1{
+padding-left: 30%;
+margin-right: 100px;
+}
+
+.main{
+    padding: 20px;
 }
