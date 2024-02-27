@@ -1,0 +1,145 @@
+@charset "utf-8";
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+  /* Styles pour l'en-tête */
+header 
+{
+    background-color: #383e52;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between; /* Pour pousser les éléments à leurs extrémités respectives */
+    align-items: center;
+
+}
+
+a
+{
+    background-color:#383e52;
+    color: #fff;
+    text-decoration: none;
+}
+  
+header h1 
+{
+    font-size: 2.5em;
+    background-color: #383e52;
+    color: #fff;
+    margin: 0;
+}
+  
+header h3 
+{
+    font-size: 1.2em;
+    background-color: #383e52;
+    margin: 10px 0;
+}
+  
+  /* Styles pour la navigation */
+nav ul 
+{
+    list-style: none;
+    background-color: #383e52;
+    padding: 0;
+}
+  
+nav ul li 
+{
+    display: inline;
+    background-color: #383e52;
+    margin-right: 20px;
+}
+  
+nav ul li:last-child 
+{
+    background-color: #383e52;
+    margin-right: 0;
+}
+  
+nav ul li a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+  
+  /* Styles pour les sections */
+section.zonebeige 
+{
+    padding: 20px;
+    background-color: #33d7ab;
+    margin-bottom: 20px;
+}
+  
+section h2 
+{
+    font-size: 1.8em;
+    background-color: #fff;
+    margin-top: 0;
+}
+
+section p 
+{
+    font-size: 1em;
+    background-color: #fff;
+}
+
+section p.paragraphebeige
+{
+    font-size: 1em;
+    background-color: #33d7ab;
+}
+  
+section a 
+{
+    display: inline-block;
+    background-color: #fff;
+    color: #383e52;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+  /* Styles pour le pied de page */
+footer 
+{
+    background-color: #383e52;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Pour pousser les éléments à leurs extrémités respectives */
+    align-items: center;
+}
+  
+footer small 
+{
+    font-size: 0.8em;
+    background-color: #383e52;
+}
+  
+footer nav ul 
+{
+    margin: 0;
+    background-color: #383e52;
+}
+  
+footer nav ul li 
+{
+    display: inline;
+    background-color: #383e52;
+    margin-right: 20px;
+}
+  
+footer nav ul li:last-child 
+{
+    margin-right: 0;
+    background-color: #383e52;
+}
