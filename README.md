@@ -1,1 +1,1 @@
-//all pages must include the en-tete adn the pied de page. 
+//all pages must include the en-tete and the pied de page. 
