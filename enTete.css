@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.bigText{
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    
+    font-weight: 100 ;
+}
+#backgroundEnTete{
+    background-color: rgb(30, 60, 85);
+}
+
+#topGreen{
+    color: rgb(113, 150, 113);
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.whiteTop{
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 600;
+    color:white;
+}
