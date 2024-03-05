@@ -1,0 +1,86 @@
+/*
+top box
+*/
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    /*possible incorrect font weight?*/
+    font-weight: 100;
+
+}
+#text1{
+
+text-align: center;
+color: gray;
+font-family: "Arial", sans-serif;
+}
+
+#top{
+background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+height:220px;
+position:relative;
+bottom:26px
+}
+
+/*
+second box
+*/
+h3{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight:100
+
+
+}
+
+h5{
+    margin-left: 10px;
+    color: gray;
+    font-family: "Arial", sans-serif;
+    font-weight:lighter;
+    font-size: 13px;
+
+
+}
+#justBelow99{
+text-align: center;
+}
+
+
+
+#Bienvenue{
+    font-family: "Arial", sans-serif;
+    color: rgb(113, 150, 113);
+}
+
+.labels_left_cell{
+font-weight: bold;
+color: rgb(113, 150, 113);
+font-family: "Arial", sans-serif;
+font-size: 13px;
+
+
+
+}
+
+#commentaires{
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+
+}
+#acheter{
+    color:white;
+    background-color: rgb(92, 137, 137);
+    width:100px;
+    height:30px;
+
+}
