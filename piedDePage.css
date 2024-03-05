@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* why this import and why it works?*/
+
+#piedDePageBox{
+    background-color: rgb(30, 60, 85);
+    height: 80px;
+    
+
+}
+
+
+.whiteTextPiedDePage{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: small;
+
+    padding-top: 50px;
+   
+}
+#greenTextPiedDePage{
+    color: rgb(113, 150, 113);
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: small;
+    padding-top: 50px;
+
+
+}
