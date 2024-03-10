@@ -3,42 +3,46 @@
   <head>
     <meta charset="utf-8" />
     <title>Conférenciers</title>
-    <link rel="stylesheet" href="stylesmodifications.css" type="text/css"/>
+    <link rel="stylesheet" href="conferenciers.css" type="text/css"/>
+    <link rel="stylesheet" href="enTete.css">
+    <link rel="stylesheet" href="piedDePage.css">
   </head>
 
-  <body>
-    <header>
-      <h1>
-        <a href="index.html">Nouvelle <br />
-          Conférence</a>
-      </h1>
-
+<body>
+  <!--Entête de page-->
+  <header>
+    <h1 class="titreDeLEntete">
+      <a href="index.html">Nouvelle <br />
+        Conférence</a>
+    </h1>
+    <div class="separerElements">
       <h3>24&ndash;25 mars 2024 &mdash; Ottawa, ON</h3>
 
       <nav>
-        <ul>
-          <li>Accueil</li>
+        <ul class="ulEnteteDePage">
+          <li><a>Accueil</a></li>
           <!--
           -->
-          <li>Conférenciers</li>
+          <li><a>Conférenciers</a></li>
           <!--
           -->
-          <li>Programme</li>
+          <li><a>Programme</a></li>
           <!--
           -->
-          <li>Venue</li>
+          <li><a>Venue</a></li>
           <!--
           -->
-          <li>Inscription</li>
+          <li class="dernierElementListeEntete"><a>Inscription</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <section class="zonebeige">
+    <section class="premiereSection">
       <div>
         <h1>Conférenciers</h1>
 
-        <p class="paragraphebeige">
+        <p class="premierParagraphe">
           Fusce tempus vitae lorem mollis varius. Curabitur ultricies nisl
           sollicitudin nulla blandit consequat. Aliquam eu metus purus.
           Pellentesque consectetur, diam et dictum commodo, neque dolor aliquam
@@ -50,12 +54,15 @@
 
 <!--Partie 1-->
       <div class= "main">
+
+        <div class= "flex">
+
+          <div>
             <h2>Premier conférencier</h2>
             <h5>Programmeur Web</h5>
 
-          <div class= "flex">
 
-<!--Object 1: Text-->
+<!--Objet 1: Text-->
             <p>
               Vestibulum sodales, metus interdum viverra bibendum, nisl enim
               finibus ante, elementum vehicula enim sem vitae ante. Class aptent
@@ -77,20 +84,25 @@
               imperdiet.
             </p>
 
-<!--Object 2: Img-->
-            <img src="https://up.yimg.com/ib/th?id=OIP.TqCbovmLULy2o-akEijiPAHaHZ&pid=Api&rs=1&c=1&qlt=95&w=120&h=120" class="img-1">
+            </div>
+
+<!--Objet 2: Img-->
+          <fieldset>
+          <legend><img src="first-speaker.jpeg" alt="Conférencier 1" class="imageConferenciers"></legend>
+          <h4><a class="lienTexteImage" href="">Conferencier 1</a></h4>
+          </fieldset>
             </div>
       </div>
 
 
 <!--Partie 2-->
       <div class= "main">
-        <h2>deuxieme conférencier</h2>
+        <h2>Deuxième conférencier</h2>
         <h5>Concepteur graphique et développeur</h5>
 
-      <div class= "flex">
+        <div class= "flex">
     
-<!--Object 1: Text-->
+<!--Objet 1: Text-->
         <p>
             Vestibulum sodales, metus interdum viverra bibendum, nisl enim
             finibus ante, elementum vehicula enim sem vitae ante. Class aptent
@@ -114,20 +126,22 @@
             imperdiet.
         </p>
 
-<!--Object 2: Img-->
-        <img src="https://up.yimg.com/ib/th?id=OIP.TqCbovmLULy2o-akEijiPAHaHZ&pid=Api&rs=1&c=1&qlt=95&w=120&h=120" class="img-1">
+<!--Objet 2: Img-->
+          <fieldset>
+            <legend><img src="second-speaker.jpeg" alt="Conférencier 2" class="imageConferenciers"></legend>  
+          </fieldset>
         </div>
     </div>
 
 
     <!--Partie 3-->
     <div class= "main">
-        <h2>Troisieme conférencier</h2>
+        <h2>Troisième conférencier</h2>
         <h5>Programmeur Web</h5>
 
       <div class= "flex">
 
-<!--Object 1: Text-->
+<!--Objet 1: Text-->
         <p>
           Vestibulum sodales, metus interdum viverra bibendum, nisl enim
           finibus ante, elementum vehicula enim sem vitae ante. Class aptent
@@ -151,19 +165,21 @@
           imperdiet.
         </p>
 
-<!--Object 2: img-->
-        <img src="https://up.yimg.com/ib/th?id=OIP.TqCbovmLULy2o-akEijiPAHaHZ&pid=Api&rs=1&c=1&qlt=95&w=120&h=120" class="img-1">
+<!--Objet 2: img-->
+          <fieldset>
+            <legend><img src="third-speaker.jpeg" alt="Conférencier 3" class="imageConferenciers"></legend>  
+          </fieldset>
         </div> 
     </div>
     
-<!--Footer-->
+<!--Pied de page-->
 
 <footer>
-    <small>Nouvelle Conférence</small>
+    <small class="titrePiedDePage">Nouvelle Conférence</small>
 
-    <nav>
+    <nav class="navPiedDePage">
 
-      <ul>
+      <ul class="ulPiedDePage">
         <li>Accueil</li>
 
         <li>Conférenciers</li>
@@ -172,7 +188,7 @@
 
         <li>Venue</li>
 
-        <li>Inscription</li>
+        <li class="dernierElementListePiedDePage">Inscription</li>
 
       </ul>
 
