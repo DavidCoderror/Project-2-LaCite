@@ -13,113 +13,110 @@ body
 {
     font-family: Arial, sans-serif;
     background-color: #fff;
-    color: #333;
+    color: #4b4040;
     margin: 0;
     padding: 0;
 }
 
-  /* Styles pour l'en-tête */
+/* Styles pour l'en-tête */
 header 
 {
-    background-color: #383e52;
+    background-color: rgb(30, 60, 85);
     color: #fff;
     padding: 20px;
     text-align: left;
     display: flex;
     justify-content: space-between; /* Pour pousser les éléments à leurs extrémités respectives */
-    align-items: center;
-
+    align-items: center; /* Pour aligner verticalement les éléments */
 }
-
-a
+h1.titreDeLEntete
 {
-    background-color:#383e52;
+    font-size: 40px;
+    margin: 0;    
+    margin-right: auto; /* Pour pousser le titre vers la gauche */
     color: #fff;
     text-decoration: none;
 }
-  
-header h1 
+
+div.separerElements
 {
-    font-size: 2.5em;
-    background-color: #383e52;
-    color: #fff;
-    margin: 0;
+    flex-direction: column; /* Affichage en ligne */
+    align-items: right; /* Pour aligner verticalement les éléments */
 }
-  
-header h3 
+
+h3 
 {
-    font-size: 1.2em;
-    background-color: #383e52;
-    margin: 10px 0;
+    font-size: 20px;
+    margin: 0; /* Réinitialiser les marges pour h3 */
 }
-  
-  /* Styles pour la navigation */
-nav ul 
+
+/* Styles pour la navigation */
+ul.ulEnteteDePage
 {
     list-style: none;
-    background-color: #383e52;
     padding: 0;
+    margin-top: 10px; /* Ajouter une marge en haut de la liste de navigation */
+    order: 3; /* Faire en sorte que la liste de navigation apparaisse en dernier */
 }
-  
-nav ul li 
+
+li 
 {
     display: inline;
-    background-color: #383e52;
     margin-right: 20px;
 }
-  
-nav ul li:last-child 
+
+li.dernierElementListeEntete
 {
-    background-color: #383e52;
     margin-right: 0;
 }
-  
+
 nav ul li a 
 {
     color: #fff;
     text-decoration: none;
 }
-  
-  /* Styles pour les sections */
-section.zonebeige 
+
+/* Styles pour les sections */
+section.premiereSection 
 {
-    padding: 40px;
-    background-image: linear-gradient(#49803d, #c4f5af);
+    padding: 20px;
+    background-color: #33d7ab;
     margin-bottom: 20px;
-    text-align: center;
 }
-  
+
 section h2 
 {
-    font-size: 1.8em;
-    background-color: #fff;
+    font-size: 24px;
     margin-top: 0;
 }
 
-section p 
+p 
 {
-    font-size: 1em;
+    font-size: 22px;
+    margin-left: 30px;
 }
 
-section p.paragraphebeige
+p.premierParagraphe
 {
-    font-size: 1em;
+    font-size: 22px;
+    background-color: #33d7ab;
+    margin-left: 20px;
 }
-  
-section a 
+
+a 
 {
     display: inline-block;
-    background-color: #fff;
-    color: #383e52;
+    background-color: rgb(30, 60, 85);
+    color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
-  
-  /* Styles pour le pied de page */
+
+/* Styles pour le pied de page */
 footer 
 {
-    background-color: #383e52;
+    background-color: rgb(30, 60, 85);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -127,43 +124,68 @@ footer
     justify-content: space-between; /* Pour pousser les éléments à leurs extrémités respectives */
     align-items: center;
 }
-  
-footer small 
+
+small.titrePiedDePage
 {
-    font-size: 0.8em;
-    background-color: #383e52;
-}
-  
-footer nav ul 
-{
-    margin: 0;
-    background-color: #383e52;
-}
-  
-footer nav ul li 
-{
-    display: inline;
-    background-color: #383e52;
-    margin-right: 20px;
-}
-  
-footer nav ul li:last-child  
-{
-    margin-right: 0;
-    background-color: #383e52;
+    font-size: 16px;
 }
 
-/*DAVID EDITZ*/
-.flex{
+ul.ulPiedDePage
+{
+    margin: 0;
+}
+
+
+li.dernierElementListePiedDePage
+{
+    margin-right: 0;
+}
+
+div.flex
+{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     
 }
 
-.img-1{
-padding-left: 30%;
-margin-right: 100px;
+img.imageConferenciers
+{
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    text-align: center;
+    height: 170px;
+    width: 170px;
+    
 }
 
-.main{
-    padding: 20px;
+h2
+{
+    margin-left: 40px;
+    font-size: 28px;
+}
+
+h5
+{
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+h1
+{
+    margin-left: 20px;
+}
+
+fieldset
+{
+    margin-left: 20%;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    
+}
+
+a.lienTexteImage
+{
+    background-color: #fff;
+    color: #524646;
 }
