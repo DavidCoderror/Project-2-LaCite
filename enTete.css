@@ -1,25 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+body{
+    margin: 0;
+}
 
-.bigText{
+.headerBigText1{
     font-size: 40px;
     color:white;
     font-family: "Roboto";
     
     font-weight: 100 ;
 }
-#backgroundEnTete{
+.headerBigText2{
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    font-weight: 100 ;
+}
+#headerBackgroundEnTete{
     background-color: rgb(30, 60, 85);
+    padding-left: 425px;
+    padding-right: 300px;
+    display:flex;
 }
 
-#topGreen{
+.headerTopGreen{
     color: rgb(113, 150, 113);
     font-family: "Roboto";
     font-weight: 600;
+    text-align: right;
 }
-.whiteTop{
+.headerWhiteTop{
     font-family: Arial;
     font-size: 10px;
     font-weight: 600;
     color:white;
+}
+.headerSection-2{
+    text-align: right;
+    padding-left:40px
+}
+
+.headerSpace{
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.headerDernierSpace{
+    padding-left:8px;
 }
