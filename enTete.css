@@ -22,7 +22,7 @@ body{
 }
 #headerBackgroundEnTete{
     background-color: rgb(30, 60, 85);
-    padding-left: 425px;
+    padding-left: 35%;
     padding-right: 300px;
     display:flex;
 }
