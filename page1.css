@@ -1,0 +1,117 @@
+body{
+    margin: 0 0 0 0;
+}
+
+header{
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 60px
+}
+
+.inscrip{
+    display: flex;
+    justify-content: center;
+}
+
+
+.texteSection1 h2, .texteSection1 p, texteSection1 a{
+    text-align: center;
+}
+.dateMenu{
+color: rgb(103,131,137);
+}
+
+nav ul {
+    display: flex;
+}
+
+.dateMenu{
+
+    text-align: end;
+}
+
+nav ul li {
+    margin-left: 1em;
+    font-size: 1em;
+    list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: end;
+
+}
+
+.NouvelleConference{
+    font-family: Verdana,  Tahoma, sans-serif;
+    margin-right: 2em;
+    font-size: 3em;
+}
+
+.NouvelleConference a {
+    text-decoration: none;
+    color: white;
+}
+
+.partiNavBar{
+    background-color: rgb(46,63,81);
+    padding: 2em;
+    height: 350px;
+}
+section div{
+   display: flex; 
+   justify-content: center;
+  align-items: center;
+  text-align: center;
+   
+}
+
+footer{
+    background-color: rgb(46,63,81);
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    padding-top:  30px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 150px;
+    height: 100px;
+
+}
+
+
+.tailleimage{
+    width: 150px;
+    margin: 20px;
+    text-align: left;
+}
+
+.titreImage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.descImage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+small{
+    margin-right: 2em;
+}
+footer nav ul li{
+    margin-left: 4em;
+}
+h2{
+    color: rgb(103,131,137); 
+}
+.parag1{
+    
+    color: white;
+}
+
+#buttonInscription{
+    border-radius: 5px;
+}
