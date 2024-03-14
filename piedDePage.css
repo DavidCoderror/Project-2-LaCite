@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-/* why this import and why it works?*/
+.piedDePageBox {
 
-#piedDePageBox{
-    background-color: rgb(30, 60, 85);
+
+   background-color: rgb(30, 60, 85);
     height: 80px;
     
-
 }
 
 
-.whiteTextPiedDePage{
-    color:white;
-    font-family: "Roboto";
-    font-weight: 600;
-    font-size: small;
+.greenTextBox{
+display: flex;
+margin-left:400px;
+position: relative;
 
-    padding-top: 50px;
-   
+bottom: -15px;
+/* why??: becasue the position is relative, it is place in defaul to the box, so it is already at the bottom and so you'll have to use negative numbers to go more below than the default placement*/
+
 }
-#greenTextPiedDePage{
+
+.greenTextPiedDePage{
     color: rgb(113, 150, 113);
     font-family: "Roboto";
     font-weight: 600;
@@ -26,4 +26,23 @@
     padding-top: 50px;
 
 
+}
+
+.whiteTextBox{
+  display: flex;
+  margin-left:800px;
+  position: relative;
+
+  bottom: 50px;
+
+
+}
+
+.whiteTextPiedDePage{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: small;
+    padding-top: 50px;
+   
 }
