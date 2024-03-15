@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*the import allows the font-weight of roboto to be 300 for correct style*/
+/* to use the import, the font-weight must be 300 and the font-family must be roboto*/
 h1{
     text-align: center;
     padding: 20px;
     margin-bottom: 30px;
     color: rgb(113, 150, 113);
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
-      /*possible incorrect font wieght?*/
-    font-weight:100;
+    font-weight:300;
 }
 .text1{
 
 text-align: center;
 color: gray;
 font-family: "Arial", sans-serif;
+padding-left: 60px;
+padding-right: 60px;
 }
 .top{
     background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
@@ -32,7 +36,8 @@ font-family: "Arial", sans-serif;
         width:140px;
         position: relative;
         top:50px;
-        left:40px
+        left:70px
+
     }
 #innerContainerCollege{
 
@@ -40,12 +45,16 @@ font-family: "Arial", sans-serif;
     color: rgb(113, 150, 113);
     margin-top: 30px;
     padding-bottom: 20px;
-    width: 120px;
+    width: 140px;
     height:10px;
+    font-weight:300;
+    font-family: "Roboto", sans-serif;
+    
 }
    #innerContainerAdresse{
     width: 140px;
-    font-family: "Arial", sans-serif;
+    font-weight:300;
+    font-family: "Roboto", sans-serif;
     font-size: 13px;
     color: gray;
    
@@ -53,10 +62,11 @@ font-family: "Arial", sans-serif;
 
    #innerContainerAdresse2{
     width: 140px;
-    font-family: "Arial", sans-serif;
+    font-weight:300;
+    font-family: "Roboto", sans-serif;
     font-size: 13px;
     color: gray;
-     margin-top:10px;
+    margin-top:10px;
    }
 
    #mapContainer{
@@ -73,25 +83,7 @@ font-family: "Arial", sans-serif;
 
    }
 
-    ul {
-        list-style: none;
-        padding-bottom: 100px;   
-         font-family: "Arial", sans-serif;
-
-      }
-      .college{
-        font-size: 20px;
-        color: rgb(113, 150, 113);
-        margin-top: 30px;
-        padding-bottom: 20px;
-
-      }
     
-
-img{
-    padding-top: 10px;
-    padding-left: 280px;
-}
 a:link{
     color:rgb(113, 150, 113);
 }
