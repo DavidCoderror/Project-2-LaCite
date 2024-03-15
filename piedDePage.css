@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-.piedDePageBox {
+
+
+
+.piedDePage {
 
 
    background-color: rgb(30, 60, 85);
     height: 80px;
     border: 1px;
     border-color: transparent;
-    padding: 10px
+    padding: 10px;
     
 }
 
 
 .greenTextBox{
 display: flex;
-margin-left:400px;
-position: relative;
 
-bottom: -15px;
-/* why??: because the position is relative, it is place in defaul to the box, so it is already at the bottom and so you'll have to use negative numbers to go more below than the default placement*/
+position: relative;
+width:200px;
+right:300px;
+bottom: -25px;
+
 
 }
 
@@ -27,16 +31,16 @@ bottom: -15px;
     font-weight: 600;
     font-size: small;
     padding-top: 50px;
-
+    width:200px;
 
 }
 
 .whiteTextBox{
   display: flex;
-  margin-left:800px;
+  margin-left:200px;
   position: relative;
-
-  bottom: 50px;
+  left:270px;
+  bottom: -25px;
 
 
 }
