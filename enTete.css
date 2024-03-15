@@ -22,9 +22,9 @@ body{
 }
 #headerBackgroundEnTete{
     background-color: rgb(30, 60, 85);
-    padding-left: 35%;
-    padding-right: 300px;
+
     display:flex;
+    justify-content: center;
 }
 
 .headerTopGreen{
