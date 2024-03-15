@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil</title>
+  <head>
+    <meta charset="utf-8" />
+    <title>Nouvelle Conférence</title>
+    <link rel="stylesheet" href="Page d'accueil.css">
     <link rel = "stylesheet" href="enTete.css">
-    <link rel = "stylesheet" href="PageAccueil.css">
     <link rel = "stylesheet" href="piedDePage.css">
+  </head>
 
-</head>
-<body>
-<!--read the project in la cité------------------------------------------------------------------------------------->
-
-
+  <body>
+    <div class="partiNavBar">
 <!-------------------->
 
 <!--Header-->
@@ -20,103 +17,116 @@
 <!-------------------->
 <header>
     
-    <!--Enable Flex + Background-->
-            <div id="headerBackgroundEnTete"> 
+  <!--Enable Flex + Background-->
+          <div id="headerBackgroundEnTete"> 
+  
+  <!--Object 1: Titre-->
+              <div>
+                  <span class ="headerBigText1">NOUVELLE</span>
+                  <h6 class ="headerBigText2">CONFÉRENCE</h6>
+              </div>
+  
+  <!--Object 2: Information-->
+              <div class="headerSection-2">
+                  <h3 class="headerTopGreen"> 24-25 mars 2024 - Ottawa, ON </h3>
+  
+                  <p class="headerWhiteTop">
+                      <span class="headerSpace">ACCUEIL</span> 
+                      <span class="headerSpace">CONFÉRENCIERS</span>
+                      <span class="headerSpace">PROGRAMME</span>
+                      <span class="headerSpace">VENUE</span>
+                      <span class="headerDernierSpace">INSCRIPTION</span>
+                  </p>
+              </div>
+  
+              
+          </div>
+  </header>
+  
+  <!--Section: Intro-->
+      <section class="texteSection1">
+        <h2>Création de sites Web à l'aide de HTML et CSS</h2>
+
+        <p class="parag1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel
+          quam quis <br> libero interdum lacinia eget ut massa. Quisque ac sem elit!
+        </p>
+
+        <a> <input id="buttonInscription" type="submit"  value="INSCRIVEZ-VOUS MAINTENANT"></a>
+      </section>
+
+  <!--Section: Images et texte-->
+  </div>
+    <section>
+      <div >
+
+    <!--Section: IMG 1-->
+        <section class="tailleimage">
+          <h5 class="descImage">Conférenciers</h5>
+
+          <a href="speakers.html">
+            <img src="./images/speakers.jpg" >
+            <h3 class="titreImage" >Conférenciers</h3>
+          </a>
+          <p class="centxt">
+            Praesent orci odio, lobortis in sollicitudin eu, suscipit vel
+            libero. Donec elementum magna ultrices sapien viverra tincidunt.
+          </p>
+        </section>
+
+    <!--Section: IMG 2-->
+        <section class="tailleimage">
+          <h5 class="descImage">Programme</h5>
+
+          <a href="schedule.html">
+            <img src="./images/schedule.jpg"  >
+          <h3 class="titreImage">Deux grandes journées</h3>
+        </a>
+
+          <p class="centxt">
+            Suspendisse commodo ligula arcu, eu rhoncus nulla sodales a.
+            Phasellus sodales rutrum luctus.
+          </p>
+        </section>
     
-    <!--Object 1: Titre-->
-                <div>
-                    <span class ="headerBigText1">NOUVELLE</span>
-                    <h6 class ="headerBigText2">CONFÉRENCE</h6>
-                </div>
-    
-    <!--Object 2: Information-->
-                <div class="headerSection-2">
-                    <h3 class="headerTopGreen"> 24-25 mars 2024 - Ottawa, ON </h3>
-    
-                    <p class="headerWhiteTop">
-                        <span class="headerSpace">ACCUEIL</span> 
-                        <span class="headerSpace">CONFÉRENCIERS</span>
-                        <span class="headerSpace">PROGRAMME</span>
-                        <span class="headerSpace">VENUE</span>
-                        <span class="headerDernierSpace">INSCRIPTION</span>
-                    </p>
-                </div>
-    
-                
-            </div>
-    </header>
-           
-<!----------------------->
-<!--Page d'acceuil top-->
-<!-----------------------> 
+    <!--Section: IMG 3-->
+        <section class="tailleimage">
+          <h5 class="descImage">Venue</h5>
 
-<div id="topBox">
+          <a href="venue.html">
+            <img src="./images/venue.jpg" >
+          <h3 class="titreImage" >Collège la Cité</h3>
+        </a>
 
-<h1 >Création de sites Web à l'aide de HTML et CSS</h1>
-<table id ="subBox" style=" width:800px;">
+          <p class="centxt">
+            In vehicula nisi a ultrices scelerisque.Maecenas vulputate vel nibh
+            fermentum pretium.
+          </p>
+        </section>
+      </div>
+    </section>
 
-    <tr>
-<td >
+      <!--Section: Footer-->
+    <footer>
+      <small> &copy; Nouvelle Conférence</small>
 
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate cum dignissimos facere eum. Dicta ea excepturi porro ex ratione at libero cum culpa voluptas odit.</h2>
-
-</td>
-
-    </tr>
-</table>
-
-<input id="buttonInscription" type="submit" style=" border-radius: 5px;" value="INSCRIVEZ-VOUS MAINTENANT">
-
-</div>
-<!----------------------->
-<!--images-->
-<!-----------------------> 
-
-<table style=" margin-left:438px" >
-<tr>
-<td  class="topOfImg"> CONFÉRENCIERS</td > <td  class="topOfImg">PROGRAMME </td> <td  class="topOfImg">VENUE  </td>
-</tr>
-
-<tr>
-    <td ><img src="speakers.jpg"> </td > <td ><img src="schedule.jpg"> </td> <td > <img src="venue.jpg"> </td>
-</tr>
-
-<tr>
-    <td class="bottomImg"> Conférenciers</td > <td class="bottomImg">Deux grandes journées </td> <td class="bottomImg">Collège La Cité</td>
-</tr>
-
-<tr>
-
-    <td class="loremImg"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt assumenda velit debitis fugiat corrupti ullam nihil quas repellendus.</td > 
-    <td class="loremImg"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias iusto perspiciatis sed, impedit harum optio ut dignissimos quam quos.</td> 
-    <td  class="loremImg" > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab odio voluptas dolorum pariatur excepturi, voluptatem incidunt eius. </td>
-
-
-</tr>
-
-</table>
-
-<br>
-<br>
-<br>
-
-<!----------------------->
-<!--Pied de page-->
-<!-----------------------> 
-
-<div id="piedDePageBox" >
-    <table style="border: 1px solid transparent; border-collapse: collapse; width: 100%;" id="textPiedDePage">
-    
-    <tr>
-        <td id="greenTextPiedDePage" >©Nouvelle Conférence </td> <td style=" width:600px" ></td> 
-        <!--there's probably a better way than assigning each cell a width to change the space between words-->
-        <td style="width: 80px;" class="whiteTextPiedDePage"> Accueil</td> <td style=" width: 110px; " class="whiteTextPiedDePage">conférencier</td> <td style=" width: 105px;" class="whiteTextPiedDePage" >Programme</td>  <td style=" width: 70px;" class="whiteTextPiedDePage">Venue</td> <td style=" width: 100px;" class="whiteTextPiedDePage" > Inscription</td>
-
-
-    </tr>
-</table>
-
-</div>
-
-</body>
+      <nav>
+        <ul>
+          <li>Accueil</li>
+          <!--
+          -->
+          <li>Conférenciers</li>
+          <!--
+          -->
+          <li>Programme</li>
+          <!--
+          -->
+          <li>Venue</li>
+          <!--
+          -->
+          <li>Inscription</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>

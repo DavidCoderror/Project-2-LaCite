@@ -1,80 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-h1{
+body{
+    margin: 0 0 0 0;
+}
 
+header{
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 60px
+}
+
+.texteSection1{
     text-align: center;
-    font-family: "Roboto";
-    color: rgb(113, 150, 113);
+}
+
+.dateMenu{
+color: rgb(103,131,137);
+}
+
+nav ul {
+    display: flex;
+}
+
+.dateMenu{
+
+    text-align: end;
+}
+
+nav ul li {
+    margin-left: 1em;
+    font-size: 1em;
+    list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: end;
 
 }
 
-#topBox{
-background-color: rgb(30, 60, 85);
-height:300px;
-position:relative;
-bottom:25px;
+.NouvelleConference{
+    font-family: Verdana,  Tahoma, sans-serif;
+    margin-right: 2em;
+    font-size: 3em;
 }
 
-#subBox{
+.NouvelleConference a {
+    text-decoration: none;
+    color: white;
+}
 
-    width:800px;
-    
-   margin-left:24%;
-
-   color:white;
-
+.partiNavBar{
+    background-color: rgb(46,63,81);
+    padding: 2em;
+    height: 350px;
+    justify-content: center;
+}
+section div{
+   display: flex; 
+   justify-content: center;
+  align-items: center;
+  text-align: center;
    
-
 }
 
-h2{
-    text-align: center;
-    font-family: "Roboto";
-    
-
-    
-}
-
-/* button could be better centered and better in general*/
-
-#buttonInscription{
-
-    text-align: center;
-    height:50px;
-    border-color: white;
-    background-color: rgb(30, 60, 85);
-    color:white;
-    margin-left:665px;
-
-}
-
-.topOfImg{
-    color:gray;
-    font-family: "Roboto";
-    font-weight: 600;
-    font-size: 10px;
-padding-bottom:20px;
-
+footer{
+    background-color: rgb(46,63,81);
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    padding-top:  30px;
+    padding-bottom: 10px;
 }
 
 img{
-    height:150px
-}
-
-.bottomImg{
-    color:gray;
-    font-family: "Roboto";
-    padding-top:20px;
-
+    width: 150px;
+    height: 100px;
 
 }
 
-.loremImg{
-    color:gray;
-    font-family: "Roboto";
-    width: 40px;
-    white-space: normal; 
-    word-wrap: break-word;
-    padding-top:20px;
 
+.tailleimage{
+    width: 150px;
+    margin: 20px;
+    text-align: left;
+}
+
+.titreImage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.descImage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+small{
+    margin-right: 2em;
+}
+footer nav ul li{
+    margin-left: 4em;
+}
+h2{
+    color: rgb(103,131,137); 
+}
+.parag1{
+    color: white;
+}
+
+#buttonInscription{
+    padding: 20px;
+    border-radius: 7px;
+
+    background-color:  rgb(46,63,81);
+    border-color: white;
+    color: white;
 }

@@ -57,6 +57,7 @@ nav ul li {
     background-color: rgb(46,63,81);
     padding: 2em;
     height: 350px;
+    justify-content: center;
 }
 section div{
    display: flex; 
