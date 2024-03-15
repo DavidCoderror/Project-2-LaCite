@@ -4,6 +4,9 @@
 
    background-color: rgb(30, 60, 85);
     height: 80px;
+    border: 1px;
+    border-color: transparent;
+    padding: 10px
     
 }
 
@@ -14,7 +17,7 @@ margin-left:400px;
 position: relative;
 
 bottom: -15px;
-/* why??: becasue the position is relative, it is place in defaul to the box, so it is already at the bottom and so you'll have to use negative numbers to go more below than the default placement*/
+/* why??: because the position is relative, it is place in defaul to the box, so it is already at the bottom and so you'll have to use negative numbers to go more below than the default placement*/
 
 }
 
@@ -38,11 +41,50 @@ bottom: -15px;
 
 }
 
-.whiteTextPiedDePage{
+#whiteTextPiedDePage1{
     color:white;
     font-family: "Roboto";
     font-weight: 600;
     font-size: small;
     padding-top: 50px;
+    width: 80px;
    
+}
+
+#whiteTextPiedDePage2{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: small;
+    padding-top: 50px;
+    width: 110px;
+
+}
+
+#whiteTextPiedDePage3{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: small;
+    padding-top: 50px;
+    width: 105px;
+
+}
+#whiteTextPiedDePage4{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: small;
+    padding-top: 50px;
+    width: 70px;
+}
+
+#whiteTextPiedDePage5{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: small;
+    padding-top: 50px;
+    width: 100px;
+
 }
