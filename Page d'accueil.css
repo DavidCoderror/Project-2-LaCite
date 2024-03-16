@@ -16,39 +16,6 @@ header{
     text-align: center;
 }
 
-.dateMenu{
-color: rgb(103,131,137);
-}
-
-nav ul {
-    display: flex;
-}
-
-.dateMenu{
-
-    text-align: end;
-}
-
-nav ul li {
-    margin-left: 1em;
-    font-size: 1em;
-    list-style: none;
-    font-family: Helvetica, Arial, sans-serif;
-    color: white;
-    text-align: end;
-
-}
-
-.NouvelleConference{
-    font-family: Verdana,  Tahoma, sans-serif;
-    margin-right: 2em;
-    font-size: 3em;
-}
-
-.NouvelleConference a {
-    text-decoration: none;
-    color: white;
-}
 
 .partiNavBar{
     background-color: rgb(46,63,81);
