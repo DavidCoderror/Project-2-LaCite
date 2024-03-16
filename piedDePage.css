@@ -1,94 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-
-
 .piedDePage {
-
-
-   background-color: rgb(30, 60, 85);
-    height: 80px;
-    border: 1px;
-    border-color: transparent;
-    padding: 10px;
+display:flex;
+background-color: rgb(30, 60, 85);
+  
+     height: 80px;
     
-}
+     padding: 10px;
 
+     align-items: flex-end;
+     justify-content: space-between;
 
-.greenTextBox{
-display: flex;
+     
+ }
 
-position: relative;
-width:200px;
-right:300px;
-bottom: -25px;
-
-
-}
-
-.greenTextPiedDePage{
+ .greenTextPiedDePage{
     color: rgb(113, 150, 113);
     font-family: "Roboto";
-    font-weight: 600;
+    font-weight: 300;
     font-size: small;
     padding-top: 50px;
     width:200px;
 
 }
 
-.whiteTextBox{
-  display: flex;
-  margin-left:200px;
-  position: relative;
-  left:270px;
-  bottom: -25px;
-
-
-}
-
-#whiteTextPiedDePage1{
+ .whiteTextBox{
+    display:flex;
+    justify-content: flex-end;
+    gap:30px;
     color:white;
     font-family: "Roboto";
-    font-weight: 600;
+    font-weight: 300;
     font-size: small;
-    padding-top: 50px;
-    width: 80px;
-   
-}
-
-#whiteTextPiedDePage2{
-    color:white;
-    font-family: "Roboto";
-    font-weight: 600;
-    font-size: small;
-    padding-top: 50px;
-    width: 110px;
-
-}
-
-#whiteTextPiedDePage3{
-    color:white;
-    font-family: "Roboto";
-    font-weight: 600;
-    font-size: small;
-    padding-top: 50px;
-    width: 105px;
-
-}
-#whiteTextPiedDePage4{
-    color:white;
-    font-family: "Roboto";
-    font-weight: 600;
-    font-size: small;
-    padding-top: 50px;
-    width: 70px;
-}
-
-#whiteTextPiedDePage5{
-    color:white;
-    font-family: "Roboto";
-    font-weight: 600;
-    font-size: small;
-    padding-top: 50px;
-    width: 100px;
-
-}
+ }
