@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 60px
+}
+
+.dateMenu{
+    color: rgb(103,131,137);
+    }
+
+.dateMenu{
+
+    text-align: end;
+}    
+
+
+.NouvelleConference{
+    font-family: Verdana,  Tahoma, sans-serif;
+    margin-right: 2em;
+    font-size: 3em;
+}
+
+.NouvelleConference a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+}
+
+
+nav ul li {
+    margin-left: 1em;
+    font-size: 1em;
+    list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: end;
+}
+
+.partiNavBar{
+    background-color: rgb(46,63,81);
+    padding: 2em;
+    height: 150px;
+}
+
+footer{
+    background-color: rgb(46,63,81);
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    padding-top:  30px;
+    padding-bottom: 10px;
+}
+
+.couleur{
+background-color: yellowgreen;
+}
+.ligne1{
+    display: flex;
+}
+
+img{
+    width: 150px;
+    height: 100px;
+
+}
+ aside div ul li{
+    list-style-type: none;
+    padding-top: 30px;
+    border: black 2px solid;
+}
+
+a{
+    text-decoration: none;
+    
+}
