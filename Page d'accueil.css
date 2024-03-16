@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body{
-    margin: 0 0 0 0;
-}
+
 
 header{
     display: flex;
@@ -20,24 +18,14 @@ header{
 color: rgb(103,131,137);
 }
 
-nav ul {
-    display: flex;
-}
+
 
 .dateMenu{
 
     text-align: end;
 }
 
-nav ul li {
-    margin-left: 1em;
-    font-size: 1em;
-    list-style: none;
-    font-family: Helvetica, Arial, sans-serif;
-    color: white;
-    text-align: end;
 
-}
 
 .NouvelleConference{
     font-family: Verdana,  Tahoma, sans-serif;
@@ -64,14 +52,7 @@ section div{
    
 }
 
-footer{
-    background-color: rgb(46,63,81);
-    display: flex;
-    justify-content: center ;
-    align-items: flex-end;
-    padding-top:  30px;
-    padding-bottom: 10px;
-}
+
 
 img{
     width: 150px;
@@ -99,9 +80,7 @@ img{
 small{
     margin-right: 2em;
 }
-footer nav ul li{
-    margin-left: 4em;
-}
+
 h2{
     color: rgb(103,131,137); 
 }
@@ -112,6 +91,11 @@ h2{
 #buttonInscription{
     padding: 20px;
     border-radius: 7px;
+
+    background-color:  rgb(46,63,81);
+    border-color: white;
+    color: white;
+}
 
     background-color:  rgb(46,63,81);
     border-color: white;
