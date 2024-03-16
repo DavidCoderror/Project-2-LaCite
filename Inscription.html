@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription</title>
    <link rel= "stylesheet" href= "Inscription.css">
    <link rel= "stylesheet" href= "enTete.css">
@@ -58,46 +66,43 @@
     </div>
 <!-------------------->
 
-<!--second box-->
+<!--left-side-->
 
 <!-------------------->
-<table style=" width: 100%">
-<tr>
-<td ><h3>Achat de passe pour la conférence</h3> <h5>99$/PLACE</h5><p id="justBelow99"></p></td>  
-<td ><p class="labels_left_cell">Nom</p> <input type="text" placeholder="Nom complet" style="width:200px"></td>
-</tr>
+<div id="wholeContainer"> 
+    <div id="leftContainer" >
+        <h3>Achat de passe pour la conférence</h3>
+        <h5>99$/PLACE</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo suscipit at eos amet tenetur ea ut illo dolore exercitationem, provident magni incidunt adipisci totam voluptate quae laboriosam voluptatibus porro. Dignissimos</p>
+        <p id="Bienvenue">Bienvenu !</p>
+        <ul style="list-style-type: square;">
+            <li>Curabitur pretium tincidunt lacus. </li>
+            <li>Curabitur pretium tincidunt lacus. </li>
+            <li>Curabitur pretium tincidunt lacus.</li>
+            <li>Curabitur pretium tincidunt lacus.</li>
+            <li>Curabitur pretium tincidunt lacus.</li>
+       </ul>
+    </div>
 
-<tr>
-<td >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo suscipit at eos amet tenetur ea ut illo dolore exercitationem, provident magni incidunt adipisci totam voluptate quae laboriosam voluptatibus porro. Dignissimos?</td>
-<td ><p class="labels_left_cell">Courriel</p> <input type="text" placeholder="Addresse courriel" style="width:200px"> </td>
-</tr>
+<!-------------------->
 
-<tr>
- <td ><p id="Bienvenue">Bienvenu !</p></td>
- <!--nombre de places?-->
- <td ><p class="labels_left_cell">Nombre de places</p> <select> <optgroup label="1"> <option value="Alberta" selected >1</option></optgroup></select></td>   
-</tr>
+<!-- right-side-->
 
-<tr>
-<td > 
-<ul style="list-style-type: square;">
-     <li>Curabitur pretium tincidunt lacus. </li>
-     <li>Curabitur pretium tincidunt lacus. </li>
-     <li>Curabitur pretium tincidunt lacus.</li>
-     <li>Curabitur pretium tincidunt lacus.</li>
-     <li>Curabitur pretium tincidunt lacus.</li>
-</ul>
-</td>
-<!--possible bug:big textarea cause problems-->
-<td ><p id="commentaires">Commentaire</p> <textarea cols="30" rows="4"></textarea></td>
-</tr>
+<!-------------------->
+    <div id="rightContainer">
+        <p class="labels_left_cell">Nom</p> <input type="text" placeholder="Nom complet" style="width:200px">
+        <p class="labels_left_cell">Courriel</p> <input type="text" placeholder="Addresse courriel" style="width:200px">
+        <p class="labels_left_cell">Nombre de places</p> <select> <optgroup label="1"> <option value="Alberta" selected >1</option></optgroup></select>
+        <p id="commentaires">Commentaire</p> <textarea cols="30" rows="4"></textarea> <p> </p>
+        <input id="acheter" type="submit" style=" border-radius: 5px;" value="Acheter" formaction=""> 
+    </div>
 
-<tr style="height:100px">
-<td >  </td>
-<td >  <input id="acheter" type="submit" style=" border-radius: 5px;" value="Acheter" formaction=""></td>
-</tr>
+</div>
 
-</table>
+
+<br>
+<br>
+<br>
 
 
 <!-------------------->
@@ -106,19 +111,28 @@
 
 <!-------------------->
 
-<div id="piedDePageBox" >
-    <table style="border: 1px solid transparent; border-collapse: collapse; width: 100%;" id="textPiedDePage">
-    
-    <tr>
-        <td id="greenTextPiedDePage" >©Nouvelle Conférence </td> <td style=" width:600px" ></td> 
-        <!--there's probably a better way than assigning each cell a width to change the space between words-->
-        <td style="width: 80px;" class="whiteTextPiedDePage"> Accueil</td> <td style=" width: 110px; " class="whiteTextPiedDePage">conférencier</td> <td style=" width: 105px;" class="whiteTextPiedDePage" >Programme</td>  <td style=" width: 70px;" class="whiteTextPiedDePage">Venue</td> <td style=" width: 100px;" class="whiteTextPiedDePage" > Inscription</td>
+<div id="piedDePageContainer">
+
+    <div class="piedDePage" >
+        <div> 
+            <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
+        </div>
 
 
-    </tr>
-</table>
+        <div class="whiteTextBox" >
+            <div>Accueil</div>
+            <div>conférencier</div>  
+            <div>Programme</div>
+            <div>Venue</div>
+            <div> Inscription</div>  
+        </div>
 
-</div>
+    </div>   
+</div>  
+
+
+</body>
+</html>
 
 
 </body>
