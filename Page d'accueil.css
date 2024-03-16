@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body{
-    margin: 0 0 0 0;
-}
+
 
 header{
     display: flex;
@@ -16,7 +14,6 @@ header{
     text-align: center;
 }
 
-
 .partiNavBar{
     background-color: rgb(46,63,81);
     padding: 2em;
@@ -29,15 +26,6 @@ section div{
   align-items: center;
   text-align: center;
    
-}
-
-footer{
-    background-color: rgb(46,63,81);
-    display: flex;
-    justify-content: center ;
-    align-items: flex-end;
-    padding-top:  30px;
-    padding-bottom: 10px;
 }
 
 img{
@@ -66,9 +54,7 @@ img{
 small{
     margin-right: 2em;
 }
-footer nav ul li{
-    margin-left: 4em;
-}
+
 h2{
     color: rgb(103,131,137); 
 }
