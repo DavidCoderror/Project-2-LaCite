@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body{
-    margin: 0;
-}
-
-.headerBigText1{
-    font-size: 40px;
-    color:white;
-    font-family: "Roboto";
-    
-    font-weight: 100 ;
-}
-.headerBigText2{
-    font-size: 40px;
-    color:white;
-    font-family: "Roboto";
-    margin-top: 0;
-    margin-bottom: 0;
-    
-    font-weight: 100 ;
-}
 #headerBackgroundEnTete{
     background-color: rgb(46,63,81);
-
     display:flex;
-    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+
+
+#headerBigText1{
+    margin-left: 300px;
+    width: 100px;
+     line-height: 1.0;
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    font-weight: 100 ;
+    
+   
+    
+}
+
+.headerSection-2{
+    text-align: right;
+    margin-left: 170px;
 }
 
 .headerTopGreen{
@@ -34,19 +34,20 @@ body{
     text-align: right;
 }
 .headerWhiteTop{
-    font-family: Arial;
+    font-family: "Roboto";
     font-size: 10px;
     font-weight: 600;
     color:white;
 }
-.headerSection-2{
-    text-align: right;
-    padding-left:40px
-}
+
 
 .headerSpace{
     padding-left:8px;
     padding-right:8px;
+}
+
+.headerDernierSpace{
+    padding-left:8px;
 }
 
 .headerDernierSpace{
