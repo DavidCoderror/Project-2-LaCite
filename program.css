@@ -1,1 +1,146 @@
 
+@charset "utf-8";
+body 
+{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #fff;
+    color: #4b4040;
+    margin: auto 0;
+    padding: auto 0;
+}
+
+/* Styles pour les sections */
+section.premiereSection 
+{
+    padding: 20px;
+    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section h1 
+{
+    font-size: 40px;
+    margin-top: 0;
+    
+}
+
+p 
+{
+    font-size: 28px;
+    margin-left: 30px;
+
+}
+
+p.premierParagraphe
+{
+    font-size: 32px;
+    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+    margin-left: 20px;
+    
+}
+
+/* David Editz*/
+
+/* ---------------*/
+
+/* Flex*/
+
+/* ---------------*/
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    padding: 10px;
+}
+
+/* ---------------*/
+
+/* Titres*/
+
+/* ---------------*/
+
+/* Utiliser pour Gros Titre "Programme"*/
+.titre{
+    color:darkgreen;
+    font-weight: 100;
+}
+
+/* Utiliser pour Titre Conference vert*/
+.titreMini-1-Conference{
+    color:darkgreen;
+    font-weight: 100;
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+/* Utiliser pour Titre Ateliers vert*/
+.titreMini-1-Ateliers{
+    color:darkgreen;
+    font-weight: 100;
+    padding-left: 105px;
+    padding-right:20px;
+    font-size: 40px;
+}
+
+/* Temps*/
+.titreMini-2{
+    font-weight: 100;
+    padding-left: 105px;
+    padding-right: 17px;
+}
+
+/* ---------------*/
+
+/* Textes*/
+
+/* ---------------*/
+
+.texteGris{ /* Textes dans les boites*/
+    padding-top: 2px;
+    color:lightslategrey
+}
+/* ---------------*/
+
+/* Seperateurs*/
+
+/* ---------------*/
+
+.seperateur { /* Creation d'un seperateur*/
+    background-color: rgb(236, 236, 236);
+    padding: 2px;
+    margin-left:270px;
+    width: 82%;
+}
+
+.invisbileSeperateur { /* Espace entre sections*/
+    background-color: rgb(255, 255, 255);
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left:270px;
+    padding: 2px;
+}
+
+
+.espaceEntreDivs { /* Espace entre Conference dans boites 3 et 5*/
+    padding-left: 55px;
+}
+
+/*
+To-do:
+
+-12:30 word "Diner" needs to be repostioned and spelled correctly 
+
+-Re-size everything to be smaller?
+
+-Conference 1,2,3,4 doivent etre vert 
+
+-Change textes to what it supposed to be (Check ECite)
+
+*/
