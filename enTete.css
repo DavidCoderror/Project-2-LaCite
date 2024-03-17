@@ -1,65 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /*the import allows the font-weight of roboto to be 300 for correct style*/
 /* to use the import, ou must have font-family:roboto and add a font-weight*/
-#headerBackgroundEnTete{
-    background-color: rgb(46,63,81);
-    display:flex;
-   
-  
+body{
+    margin: 0;
 }
 
-
-
-#containerBigText1{
-    margin-left: 270px;
-    width: 200px;
-     line-height: 1.0;
+.headerBigText1{
     font-size: 40px;
     color:white;
     font-family: "Roboto";
+    
     font-weight: 100 ;
-    
-   
-    
 }
+.headerBigText2{
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    font-weight: 100 ;
+}
+#headerBackgroundEnTete{
+    background-color: rgb(46,63,81);
 
-.containerSectionRight{
-    
-    margin-left: 500px;
-    border-style: solid;
-    border-color: transparent;
-   
-    
+    display:flex;
+    justify-content: center;
 }
 
 .headerTopGreen{
     color: rgb(113, 150, 113);
     font-family: "Roboto";
-    font-weight: 100;
+    font-weight: 600;
     text-align: right;
-  padding-top:30px;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 1px;
-
 }
 .headerWhiteTop{
-    font-family: "Roboto";
+    font-family: Arial;
     font-size: 10px;
     font-weight: 600;
     color:white;
-
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-
-    margin-top: 10px;
-    border-style: solid;
-    border-color: transparent;
-    border-width: 1px;
-
+}
+.headerSection-2{
+    text-align: right;
+    padding-left:40px
 }
 
+.headerSpace{
+    padding-left:8px;
+    padding-right:8px;
+}
 
+.headerDernierSpace{
+    padding-left:8px;
+}
 
 
