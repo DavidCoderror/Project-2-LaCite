@@ -3,39 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <title>Conférenciers</title>
-    <link rel="stylesheet" href="conferenciers.css" type="text/css"/>
+    <link rel="stylesheet" href="conférenciers.css" type="text/css"/>
     <link rel="stylesheet" href="enTete.css">
     <link rel="stylesheet" href="piedDePage.css">
   </head>
 
   <body>
-    <header>
-    
-      <!--Enable Flex + Background-->
-              <div class="headerBackgroundEnTete"> 
+    <!--Enable Flex + Background-->
+    <div id="headerBackgroundEnTete" > 
+
+      <!--Object 1: Titre-->
+                  
+                      <div id="containerBigText1" >NOUVELLE CONFÉRENCE </div>
+               
       
-      <!--Objet 1: Titre-->
-                  <div>
-                      <span class ="headerBigText1">NOUVELLE</span>
-                      <h6 class ="headerBigText2">CONFÉRENCE</h6>
-                  </div>
+      <!--Object 2: Information-->
+                  <div class="containerSectionRight" >
+                      <div class="headerTopGreen" > 24-25 mars 2024 - Ottawa, ON </div>
       
-      <!--Objet 2: Information-->
-                  <div class="headerSection-2">
-                      <h3 class="headerTopGreen"> 24-25 mars 2024 - Ottawa, ON </h3>
-      
-                      <p class="headerWhiteTop">
-                          <span class="headerSpace">ACCUEIL</span> 
-                          <span class="headerSpace">CONFÉRENCIERS</span>
-                          <span class="headerSpace">PROGRAMME</span>
-                          <span class="headerSpace">VENUE</span>
-                          <span class="headerDernierSpace">INSCRIPTION</span>
+                      <p class="headerWhiteTop" >
+                          <span >ACCUEIL</span> 
+                          <span >CONFÉRENCIERS</span>
+                          <span >PROGRAMME</span>
+                          <span >VENUE</span>
+                          <span>INSCRIPTION</span>
                       </p>
                   </div>
       
                   
               </div>
-    </header>
 
     <section class="premiereSection">
       <div>
@@ -52,9 +48,11 @@
 
 
 <!--Partie 1-->
-    <div class= "flex">
+<div id="mainContainer">
+
+<div class= "innerBoxText" >
       <div class= "main">         
-        <h2>Premier conférencier</h2>
+        <h3>Premier conférencier</h3>
         <h5>Programmeur Web</h5>
 
 
@@ -82,21 +80,22 @@
           imperdiet.
         </p>
       </div>
-
+ </div>
 <!--Objet 2: Img-->
-      <fieldset>
-        <legend><img src="first-speaker.jpeg" alt="Conférencier 1" class="imageConferenciers"></legend>
+      
+   
+<div class="boxWithImage">
+  <img src="first-speaker.jpeg" alt="Conférencier 1" class="imageConferenciers1" >
         <h4><a class="lienTexteImage" href="">Conferencier 1</a></h4>
-      </fieldset>
-    </div>
-
-    <br>
-    <br>
+      </div>
+</div>
 
 <!--Partie 2-->
-    <div class= "flex">
+
+<div id="mainContainer">
+  <div class= "innerBoxText" >
       <div class= "main">
-        <h2>Deuxième conférencier</h2>
+        <h3>Deuxième conférencier</h3>
         <h5>Concepteur graphique et développeur</h5>
            
 <!--Objet 1: Text-->
@@ -123,21 +122,25 @@
           imperdiet.
         </p>
       </div>
-
+</div>
 <!--Objet 2: Img-->
-      <fieldset>
-        <legend><img src="second-speaker.jpeg" alt="Conférencier 2" class="imageConferenciers"></legend>
+      <div class="boxWithImage">
+        <img src="second-speaker.jpeg" alt="Conférencier 2" class="imageConferenciers2" >
         <h4><a class="lienTexteImage" href="">Conferencier 2</a></h4>  
-      </fieldset>
+      </div>
     </div>
 
-    <br>
-    <br>
+</div>
+
+   
 
     <!--Partie 3-->
-    <div class= "flex">
+
+<div id="mainContainer">
+
+   <div  class= "innerBoxText" >
       <div class= "main">
-        <h2>Troisième conférencier</h2>
+        <h3>Troisième conférencier</h3>
         <h5>Programmeur Web</h5>
 
 <!--Objet 1: Text-->
@@ -164,13 +167,16 @@
           imperdiet.
         </p>
       </div>      
-
+ </div> 
 <!--Objet 2: img-->
-      <fieldset>
-        <legend><img src="third-speaker1.jpeg" alt="Conférencier 3" class="imageConferenciers"></legend>
+      <div class="boxWithImage">
+        <img src="third-speaker.jpeg" alt="Conférencier 3" class="imageConferenciers3" >
         <h4><a class="lienTexteImage" href="">Conferencier 3</a></h4>  
-      </fieldset>
-    </div> 
+      </div>
+   
+</div>
+
+   
   
 <!-------------------->
 
@@ -178,19 +184,22 @@
 
 <!-------------------->
 
-    <div class = "piedDePageBox">
+<div  id="piedDePageContainer">
 
-      <div class="greenTextBox">
-        <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
+  <div class="piedDePage" >
+      <div> 
+          <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
       </div>
-      
-      <div class = "whiteTextBox">
-        <div class="whiteTextPiedDePage1"> Accueil</div>
-        <div class="whiteTextPiedDePage2">conférencier</div>  
-        <div class="whiteTextPiedDePage3" >Programme</div>
-        <div class="whiteTextPiedDePage4">Venue</div>
-        <div class="whiteTextPiedDePage5" > Inscription</div>  
-      </div>     
-    </div>
+
+
+      <div class="whiteTextBox" >
+          <div>Accueil</div>
+          <div>conférencier</div>  
+          <div>Programme</div>
+          <div>Venue</div>
+          <div> Inscription</div>  
+      </div>
+
+  </div>   
   </body>
 </html>
