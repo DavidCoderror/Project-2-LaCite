@@ -2,6 +2,11 @@
 /*the import allows the font-weight of roboto to be 600 for correct style*/
 /* to use the import, ou must have font-family:roboto and add a font-weight*/
 
+body
+{
+    margin: 0px;
+}
+
 .texteSection1{
     text-align: center;
     font-family: roboto;
@@ -24,7 +29,7 @@ img{
 
 }
 /*moving container to the middle by justify-content*/
-#containerImages{
+.containerImages{
     display:flex;
     justify-content: center;
    
@@ -73,7 +78,7 @@ h2{
     color: white;
 }
 
-#buttonInscription{
+.buttonInscription{
     padding: 20px;
     border-radius: 7px;
 
