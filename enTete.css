@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+/*the import allows the font-weight of roboto to be 300 for correct style*/
+/* to use the import, ou must have font-family:roboto and add a font-weight*/
 #headerBackgroundEnTete{
     background-color: rgb(46,63,81);
     display:flex;
-    flex-wrap: wrap;
+   
   
 }
 
 
 
-#headerBigText1{
-    margin-left: 300px;
-    width: 100px;
+#containerBigText1{
+    margin-left: 270px;
+    width: 200px;
      line-height: 1.0;
     font-size: 40px;
     color:white;
@@ -22,33 +23,45 @@
     
 }
 
-.headerSection-2{
-    text-align: right;
+.containerSectionRight{
+    
     margin-left: 170px;
+    border-style: solid;
+    border-color: transparent;
+   
+    
 }
 
 .headerTopGreen{
     color: rgb(113, 150, 113);
     font-family: "Roboto";
-    font-weight: 600;
+    font-weight: 100;
     text-align: right;
+  padding-top:30px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+
 }
 .headerWhiteTop{
     font-family: "Roboto";
     font-size: 10px;
     font-weight: 600;
     color:white;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin-top: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+
 }
 
 
-.headerSpace{
-    padding-left:8px;
-    padding-right:8px;
-}
 
-.headerDernierSpace{
-    padding-left:8px;
-}
 
 .headerDernierSpace{
     padding-left:8px;
