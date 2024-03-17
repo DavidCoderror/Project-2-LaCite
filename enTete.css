@@ -26,6 +26,7 @@ body{
 
     display:flex;
     justify-content: center;
+   
 }
 
 .headerTopGreen{
@@ -33,12 +34,15 @@ body{
     font-family: "Roboto";
     font-weight: 600;
     text-align: right;
+    padding-top:18px;
 }
 .headerWhiteTop{
-    font-family: Arial;
+    font-family: roboto;
     font-size: 10px;
     font-weight: 600;
     color:white;
+
+   
 }
 .headerSection-2{
     text-align: right;
@@ -46,11 +50,18 @@ body{
 }
 
 .headerSpace{
-    padding-left:8px;
-    padding-right:8px;
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+    
 }
 
-.headerDernierSpace{
-    padding-right:8px;
+a{
+    text-decoration: none;
+   
+   }
+
+   a:visited {
+    color: white;
 }
 
