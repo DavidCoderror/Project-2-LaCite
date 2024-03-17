@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/*the import allows the font-weight of roboto to be 300 for correct style*/
-/* to use the import, the font-weight must be 300 and the font-family must be roboto*/
 h1{
     text-align: center;
     padding: 20px;
@@ -87,3 +84,5 @@ padding-right: 60px;
 a:link{
     color:rgb(113, 150, 113);
 }
+
+
