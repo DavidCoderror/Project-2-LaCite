@@ -2,7 +2,7 @@
 
 .piedDePage {
 display:flex;
-background-color: rgb(46,63,81);
+background-color: rgb(30, 60, 85);
   
      height: 80px;
     
@@ -11,8 +11,6 @@ background-color: rgb(46,63,81);
      align-items: flex-end;
      justify-content: space-between;
 
-     border: 1px;
-     border-color: black; 
      
  }
 
