@@ -1,58 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-
-
-header{
-    display: flex;
-    justify-content: center ;
-    align-items: flex-end;
-    flex-direction: row;
-    margin-bottom: 60px
-}
+/*the import allows the font-weight of roboto to be 600 for correct style*/
+/* to use the import, ou must have font-family:roboto and add a font-weight*/
 
 .texteSection1{
     text-align: center;
+    font-family: roboto;
 }
 
 .partiNavBar{
     background-color: rgb(46,63,81);
     padding: 2em;
     height: 350px;
-    justify-content: center;
+    
 }
 section div{
    display: flex; 
-   justify-content: center;
-  align-items: center;
-  text-align: center;
-   
+   flex-wrap: wrap;
 }
 
 img{
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 130px;
 
 }
+/*moving container to the middle by justify-content*/
+#containerImages{
+    display:flex;
+    justify-content: center;
+   
+}
 
+h5{
+    color: gray;
+    font-family: roboto;
+    font-weight: 600;
+}
 
 .tailleimage{
-    width: 150px;
-    margin: 20px;
-    text-align: left;
+display:flex;
+flex-direction: column;
+width: 200px;
+border-style: solid;
+border-color: transparent;
+   
 }
 
-.titreImage{
-    margin-top: 10px;
-    margin-bottom: 10px;
+h3{
+    color: gray;
+    font-family: roboto;
+    font-weight: 600;
+   
+}
+/*to remove the underline of a link*/
+a{
+ text-decoration: none;
 
 }
 
-.descImage{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-small{
-    margin-right: 2em;
+p{
+    color: gray;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: small;
+    margin-top: -10px;
+    margin-bottom: 40px;
 }
 
 h2{
