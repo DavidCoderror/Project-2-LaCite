@@ -5,24 +5,14 @@
 
 body 
 {
-    
     background-color: #fff;
     color: #4b4040;
     margin: 0;
     padding: 0;
 }
 
-/* Styles pour les sections */
-section.premiereSection 
-{
-    padding: 20px;
-    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 section h1 
-{   font-family:roboto;
+{   
     font-weight: 600;
     font-size: 40px;
     margin-top: 0;
@@ -40,7 +30,6 @@ p
 
 p.premierParagraphe
 {
-    font-family:roboto;
     font-weight: 600;
     color: gray;
     background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
@@ -49,7 +38,6 @@ p.premierParagraphe
 }
 
 h2{
-    font-family:roboto;
     font-weight: 600;
     color: darkseagreen;
 }
@@ -67,8 +55,8 @@ a
 #mainContainer{
     display:flex;
     justify-content: space-between;
-    width:1200px;
-    height:300px;
+    padding-right:600px;
+    padding-top:10px;
     margin-left:100px;
 }
 
@@ -112,7 +100,6 @@ bottom:50px;
 h3
 {
     margin-left: 30px;
-    font-family:roboto;
     font-weight: 600;
     color:darkseagreen
 }
@@ -120,7 +107,6 @@ h3
 h5
 {
     margin-left: 30px;
-    font-family:roboto;
     font-weight: 600;
     color: gray;
     
@@ -128,7 +114,6 @@ h5
 
 h4{
 
-    font-family: roboto;
     font-weight:600;
     color:gray;
 }
@@ -147,4 +132,30 @@ h1
     font-size: 20px;
     position:relative;
     bottom:50px;
+}
+
+/* Utiliser pour Titre Ateliers vert*/
+.mini-Titre1{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(113, 150, 113);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.mini-Titre2{
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.invisbileSeperateur { /* Espace entre sections*/
+opacity: 0;
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left:270px;
+    padding: 2px;
 }

@@ -2,21 +2,12 @@
 @charset "utf-8";
 body 
 {
-    font-family:'Times New Roman', Times, serif;
     background-color: #fff;
     color: #4b4040;
     margin: auto 0;
     padding: auto 0;
 }
 
-/* Styles pour les sections */
-section.premiereSection 
-{
-    padding: 20px;
-    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
-    margin-bottom: 20px;
-    text-align: center;
-}
 
 section h1 
 {
@@ -27,18 +18,11 @@ section h1
 
 p 
 {
-    font-size: 28px;
+    font-size: 17px;
     margin-left: 30px;
 
 }
 
-p.premierParagraphe
-{
-    font-size: 32px;
-    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
-    margin-left: 20px;
-    
-}
 
 /* David Editz*/
 
@@ -66,27 +50,21 @@ p.premierParagraphe
 
 /* ---------------*/
 
-/* Utiliser pour Gros Titre "Programme"*/
-.titre{
-    color:darkgreen;
-    font-weight: 100;
-}
-
 /* Utiliser pour Titre Conference vert*/
 .titreMini-1-Conference{
-    color:darkgreen;
-    font-weight: 100;
-    padding-left: 50px;
-    font-size: 40px;
+    color:rgb(113, 150, 113);
+    font-weight: bold;
+    padding-left: 40px;
+    font-size: 35px;
 }
 
 /* Utiliser pour Titre Ateliers vert*/
 .titreMini-1-Ateliers{
-    color:darkgreen;
-    font-weight: 100;
+    color:rgb(113, 150, 113);
+    font-weight: bold;
     padding-left: 105px;
-    padding-right:20px;
-    font-size: 40px;
+    padding-right:0px;
+    font-size: 35px;
 }
 
 /* Temps*/
@@ -94,6 +72,12 @@ p.premierParagraphe
     font-weight: 100;
     padding-left: 105px;
     padding-right: 17px;
+}
+
+/* "Conferencier" dans les tables */
+.titreMini-3{
+    font-weight: bold;
+    color:rgb(113, 150, 113);
 }
 
 /* ---------------*/
@@ -104,7 +88,7 @@ p.premierParagraphe
 
 .texteGris{ /* Textes dans les boites*/
     padding-top: 2px;
-    color:lightslategrey
+    color:lightslategrey;
 }
 /* ---------------*/
 
@@ -115,7 +99,7 @@ p.premierParagraphe
 .seperateur { /* Creation d'un seperateur*/
     background-color: rgb(236, 236, 236);
     padding: 2px;
-    margin-left:270px;
+    margin-left:255px;
     width: 82%;
 }
 

@@ -1,9 +1,11 @@
+
+
 h1{
     text-align: center;
     padding: 20px;
     margin-bottom: 30px;
     color: rgb(113, 150, 113);
-    font-family: "Roboto", sans-serif;
+    font-family:roboto;
     font-size: 30px;
     font-weight:300;
 }
@@ -11,7 +13,6 @@ h1{
 
 text-align: center;
 color: gray;
-font-family: "Arial", sans-serif;
 padding-left: 60px;
 padding-right: 60px;
 }
@@ -38,21 +39,19 @@ padding-right: 60px;
     }
 #innerContainerCollege{
 
-    font-size: 20px;
+    font-size: 23px;
     color: rgb(113, 150, 113);
     margin-top: 30px;
     padding-bottom: 20px;
     width: 140px;
     height:10px;
     font-weight:300;
-    font-family: "Roboto", sans-serif;
     
 }
    #innerContainerAdresse{
     width: 140px;
     font-weight:300;
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     color: gray;
    
    }
@@ -60,8 +59,7 @@ padding-right: 60px;
    #innerContainerAdresse2{
     width: 140px;
     font-weight:300;
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     color: gray;
     margin-top:10px;
    }
