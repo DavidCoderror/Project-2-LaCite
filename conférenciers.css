@@ -3,26 +3,17 @@
 /* to use the import, ou must have font-family:roboto and add a font-weight*/
 
 
-body 
-{
-    
-    background-color: #fff;
-    color: #4b4040;
-    margin: 0;
-    padding: 0;
-}
+
 
 /* Styles pour les sections */
-section.premiereSection 
-{
+section.premiereSection {
     padding: 20px;
     background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
     margin-bottom: 20px;
     text-align: center;
 }
 
-section h1 
-{   font-family:roboto;
+section h1 {   font-family:roboto;
     font-weight: 600;
     font-size: 40px;
     margin-top: 0;
@@ -30,16 +21,14 @@ section h1
     
 }
 
-p 
-{
+p {
   
     margin-left: 30px;
     
 
 }
 
-p.premierParagraphe
-{
+p.premierParagraphe{
     font-family:roboto;
     font-weight: 600;
     color: gray;
@@ -48,21 +37,15 @@ p.premierParagraphe
     
 }
 
-h2{
-    font-family:roboto;
-    font-weight: 600;
-    color: darkseagreen;
-}
 
-a 
-{
-    display: inline-block;
-    background-color: rgb(27, 54, 76);
-    color: #fff;
+
+a {
+color:darkseagreen;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+   
 }
+
 
 #mainContainer{
     display:flex;
@@ -109,8 +92,7 @@ bottom:50px;
 }
 
 
-h3
-{
+h3{
     margin-left: 30px;
     font-family:roboto;
     font-weight: 600;
@@ -142,8 +124,8 @@ h1
 
 .lienTexteImage
 {
-    background-color: #fff;
-    color: #524646;
+    
+   
     font-size: 20px;
     position:relative;
     bottom:50px;
