@@ -1,0 +1,25 @@
+/* Styles Section Vert */
+.titreDuPageBackground
+{
+    padding: 20px;
+    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Utiliser pour Gros Titre titreDuPage*/
+.titreDuPage{
+    color:rgb(60, 151, 60);
+    font-weight:600;
+    font-size:50px ;
+}
+
+/* Utiliser pour Gros p au bas de titreDuPage*/
+p.premierParagraphe
+{
+    font-size: 40px;
+    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+    margin-left: 20px;
+    font-weight: 600;
+    color: #7a7a7a;
+}
