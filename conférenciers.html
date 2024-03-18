@@ -3,42 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <title>Conférenciers</title>
-    <link rel="stylesheet" href="conférenciers.css" type="text/css"/>
+    <link rel="stylesheet" href="conferenciers.css" type="text/css"/>
     <link rel="stylesheet" href="enTete.css">
     <link rel="stylesheet" href="piedDePage.css">
   </head>
 
   <body>
-    <header>
-    
-      <!--Enable Flex + Background-->
-              <div id="headerBackgroundEnTete"> 
-      
-      <!--Object 1: Titre-->
-                  <div>
-                      <span class ="headerBigText1">NOUVELLE</span>
-                      <h6 class ="headerBigText2">CONFÉRENCE</h6>
-                  </div>
-      
-      <!--Object 2: Information-->
-                  <div class="headerSection-2" >
-                      <h3 class="headerTopGreen"> 24-25 mars 2024 - Ottawa, ON </h3>
-      
-                      <p class="headerWhiteTop" >
-                          <span class="headerSpace" >
-                              <a href="Page d'accueil.html">ACCUEIL</a>
-                              <a href="conférenciers.html">CONFÉRENCIERS</a>
-                              <a href="programme.html">PROGRAMME</a>
-                              <a href="Venue.html">VENUE</a>
-                               <a href="Inscription.html">INSCRIPTION</a>
-                            </span>
-                           
-      
-                          
-                      </p>
-                  </div>
-              </div>
-          </header>
+    <div id="headerBackgroundEnTete" > 
+      <div class="headerBigText1" >
+          <a href="Page d'accueil.html" class="lienTitre">NOUVELLE CONFÉRENCE</a>
+      </div>
+      <div class="headerSection-2" >
+          <div class="headerTopGreen" >24-25 mars 2024 - Ottawa, ON</div>
+          <p class="headerWhiteTop" >
+              <span class="headerSpace">
+                  <a href="Page d'accueil.html">ACCUEIL</a>
+                  <a href="conférenciers.html">CONFÉRENCIERS</a>
+                  <a href="programme.html">PROGRAMME</a>
+                  <a href="Venue.html">VENUE</a>
+                  <a href="Inscription.html">INSCRIPTION</a>
+              </span>
+          </p>
+      </div>
+  </div>
 
     <section class="premiereSection">
       <div>
@@ -191,22 +178,23 @@
 
 <!-------------------->
 
-<div  id="piedDePageContainer">
+<div id="piedDePageContainer">
 
   <div class="piedDePage" >
-      <div> 
-          <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
-      </div>
+    <div> 
+      <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
+    </div>
 
 
-      <div class="whiteTextBox" >
-          <div>Accueil</div>
-          <div>conférencier</div>  
-          <div>Programme</div>
-          <div>Venue</div>
-          <div> Inscription</div>  
-      </div>
+    <div class="whiteTextBox" >
+      <div><a href="Page d'accueil.html" class="liensPiedDePage">Accueil</a></div>
+      <div><a href="conférenciers.html" class="liensPiedDePage">Conférenciers</a></div>  
+      <div><a href="programme.html" class="liensPiedDePage">Programme</a></div>
+      <div><a href="Venue.html" class="liensPiedDePage">Venue</a></div>
+      <div><a href="Inscription.html" class="liensPiedDePage">Inscription</a></div>  
+    </div>
 
   </div>   
+</div>  
   </body>
 </html>
