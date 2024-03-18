@@ -54,6 +54,7 @@ p
 .flex{
     display: flex;
     padding: 10px;
+   
 }
 
 /* ---------------*/
@@ -133,3 +134,10 @@ p
 .espaceEntreDivs { /* Espace entre Conference dans boites 3 et 5*/
     padding-left: 55px;
 }
+
+.dernierFlex{
+    display: flex;
+    padding: 10px;
+    padding-bottom:80px;
+}
+
