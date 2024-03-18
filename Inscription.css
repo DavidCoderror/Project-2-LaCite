@@ -1,17 +1,34 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*the import allows the font-weight of roboto to be 300 for correct style*/
+/* to use the import, ou must have font-family:roboto and add a font-weight*/
 /*top part*/
+body{
+    margin-top:0;
+}
 h1{
     text-align: center;
     padding: 20px;
     color: rgb(113, 150, 113);
+    font-family: roboto;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 600;
 
 }
 #text1{
 
 text-align: center;
 color: gray;
+font-family: roboto;
+font-weight: 600;
+}
+
+#top{
+background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+height:220px;
+padding-top:0;
+border: 1px solid;
+border-color:transparent ;
+
 }
 
 /*middle part*/
@@ -19,6 +36,7 @@ h3{
     margin-top: 50px;
     margin-left: 10px;
     color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
     font-size: 18px;
     font-weight:100
 
@@ -28,6 +46,7 @@ h3{
 h5{
     margin-left: 10px;
     color: gray;
+    font-family: "Arial", sans-serif;
     font-weight:lighter;
     font-size: 13px;
 
@@ -36,17 +55,14 @@ h5{
 p{
     color: gray;
     margin-left: 10px;
-    font-size: 20px;
-
 }
 
 
 
 #Bienvenue{
+    font-family: "Arial", sans-serif;
     color: rgb(113, 150, 113);
     margin-left: 10px;
-    font-size: 24px;
-    font-weight: 600;
 }
 
 ul{
@@ -56,15 +72,19 @@ ul{
 
 .labels_left_cell{
 font-weight: bold;
-font-size: 28px;
-font-weight: 600;
 color: rgb(113, 150, 113);
+font-family: "Arial", sans-serif;
+font-size: 13px;
+
+
+
 }
 
 #commentaires{
     font-weight: bold;
     padding-top: 30px;
     color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
     font-size: 13px;
 
 }
@@ -95,19 +115,3 @@ color: rgb(113, 150, 113);
     margin-left: 300px;
 }
 
-
-.mini-Titre1{
-    font-size: 28px;
-    font-weight: bold;
-    color: rgb(113, 150, 113);
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-.mini-Titre2{
-    font-size: 21px;
-    margin-top: 5px;
-}
-
-.textDansList{
-    font-size: 20px;
-}
