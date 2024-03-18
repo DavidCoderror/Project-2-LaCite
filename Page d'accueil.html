@@ -15,25 +15,24 @@
 <!--Header-->
 
 <!-------------------->
-<header>
+
     
-  <!--Enable Flex + Background-->
-          <div id="headerBackgroundEnTete"> 
-  
+<!--Enable Flex + Background-->
+<div id="headerBackgroundEnTete"> 
+
   <!--Object 1: Titre-->
-              <div>
-                  <span class ="headerBigText1">NOUVELLE</span>
-                  <h6 class ="headerBigText2">CONFÉRENCE</h6>
+              <div class="headerBigText1" >
+                  <a href="Page d'accueil.html" >NOUVELLE CONFÉRENCE</a>
               </div>
   
   <!--Object 2: Information-->
-              <div class="headerSection-2">
-                  <h3 class="headerTopGreen"> 24-25 mars 2024 - Ottawa, ON </h3>
+              <div class="headerSection-2" >
+                  <div class="headerTopGreen" > 24-25 mars 2024 - Ottawa, ON </div>
   
-                  <p class="headerWhiteTop">
-                      <span class="headerSpace">
+                  <p class="headerWhiteTop" >
+                      <span class="headerSpace" >
                           <a href="Page d'accueil.html">ACCUEIL</a>
-                          <a href="conferenciers.html">CONFÉRENCIERS</a>
+                          <a href="conférenciers.html">CONFÉRENCIERS</a>
                           <a href="programme.html">PROGRAMME</a>
                           <a href="Venue.html">VENUE</a>
                           <a href="Inscription.html">INSCRIPTION</a>
@@ -53,14 +52,14 @@
           quam quis <br> libero interdum lacinia eget ut massa. Quisque ac sem elit!
         </p>
 
-        <a> <input class="buttonInscription" type="submit"  value="INSCRIVEZ-VOUS MAINTENANT"></a>
+        <a href="Inscription.html"> <input id="buttonInscription" type="submit"  value="INSCRIVEZ-VOUS MAINTENANT"></a>
       </section>
 
 
   </div>
   <!--Section: Images et texte-->
 
-   <div class="containerImages" >
+   <div id="containerImages" >
   
    
       
@@ -69,9 +68,9 @@
         <div class="tailleimage"  >
           <h5>Conférenciers</h5>
 
-          <a href="speakers.html">
+          <a href="conférenciers.html">
             <img src="speakers.jpg" >
-            <h3 class="titreImage" >Conférenciers</h3>
+           <h3 class="titreImage"> <a href="conférenciers.html">Conférenciers</a></h3> 
           </a>
 
           <p class="centxt">
@@ -84,9 +83,9 @@
  <div class="tailleimage" >
   <h5 class="descImage">Programme</h5>
 
-  <a href="schedule.html">
+  <a href="programme.html">
     <img src="schedule.jpg"  >
-  <h3 class="titreImage">Deux grandes journées</h3>
+    <h3 class="titreImage"> <a href="programme.html">Deux grandes journées</a> </h3> 
 </a>
 
 <p class="centxt">
@@ -94,12 +93,14 @@
   Phasellus sodales rutrum luctus.
 </p>
 </div>
+
+ <!--Section: IMG 3-->
 <div class="tailleimage" >
   <h5>Venue</h5>
 
-  <a href="venue.html">
+  <a href="Venue.html">
     <img src="venue.jpg" >
-  <h3 class="titreImage" >Collège la Cité</h3>
+ <h3 class="titreImage"><a href="Venue.html">Collège la Cité</a></h3> 
 </a>
 
   <p class="centxt">
@@ -114,21 +115,22 @@
 
 <!-------------------->
 
-<div class = "piedDePageBox">
+  <div class="piedDePage" >
+      <div> 
+          <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
+      </div>
 
-  <div class="greenTextBox">
-    <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
-  </div>
-  
-  <div class = "whiteTextBox">
-    <div class="whiteTextPiedDePage1"> Accueil</div>
-    <div class="whiteTextPiedDePage2">conférencier</div>  
-    <div class="whiteTextPiedDePage3" >Programme</div>
-    <div class="whiteTextPiedDePage4">Venue</div>
-    <div class="whiteTextPiedDePage5" > Inscription</div>  
-  </div>     
-</div>
-     
+
+      <div class="whiteTextBox" >
+          <div><a href="Page d'accueil.html">Accueil</a></div>
+          <div><a href="conférenciers.html">Conférenciers</a></div>  
+          <div><a href="programme.html">Programme</a></div>
+          <div><a href="Venue.html">Venue</a></div>
+          <div><a href="Inscription.html">Inscription</a></div>  
+      </div>
+
+  </div>   
+</div>  
 
   
   </body>
