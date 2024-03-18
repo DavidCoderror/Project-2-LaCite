@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+
 .piedDePage {
 display:flex;
 background-color: rgb(30, 60, 85);
-  
-     height: 80px;
+     height: 30px;
     
      padding: 10px;
 
      align-items: flex-end;
      justify-content: space-between;
-
-     
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     padding: 20px
  }
 
  .greenTextPiedDePage{
@@ -21,7 +23,8 @@ background-color: rgb(30, 60, 85);
     font-size: small;
     padding-top: 50px;
     width:200px;
-
+    margin-left: 400px; /* Push the element to the right edge */
+ 
 }
 
  .whiteTextBox{
@@ -32,4 +35,5 @@ background-color: rgb(30, 60, 85);
     font-family: "Roboto";
     font-weight: 300;
     font-size: small;
+    margin-right:350px;
  }
