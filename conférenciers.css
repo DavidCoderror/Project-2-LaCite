@@ -2,7 +2,9 @@
 /*the import allows the font-weight of roboto to be 300 for correct style*/
 /* to use the import, ou must have font-family:roboto and add a font-weight*/
 
-
+body{
+    margin: 0px;
+}
 
 
 /* Styles pour les sections */
@@ -36,16 +38,6 @@ p.premierParagraphe{
     margin-left: 20px;
     
 }
-
-
-
-a {
-color:darkseagreen;
-    padding: 10px 20px;
-    text-decoration: none;
-   
-}
-
 
 #mainContainer{
     display:flex;
@@ -122,9 +114,9 @@ h1
 
 
 
-.lienTexteImage
+a.lienTexteImage
 {
-    
+    color:black;
    
     font-size: 20px;
     position:relative;
