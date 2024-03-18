@@ -1,31 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /*the import allows the font-weight of roboto to be 300 for correct style*/
-/* to use the import, ou must have font-family:roboto and add a font-weight*/
+/* to use the import, uou must have font-family:roboto and add a font-weight*/
+
+/* Ensure containers in the header has no padding or margin */
 body{
     margin: 0;
 }
 
+
+
+
+
+
+
+
 .headerBigText1{
+    width:100px;
+    display:flex;
+    flex-wrap: wrap;
     font-size: 40px;
     color:white;
     font-family: "Roboto";
-    
+    line-height: 1.0;
     font-weight: 100 ;
+    padding-bottom: 20px;
 }
-.headerBigText2{
-    font-size: 40px;
-    color:white;
-    font-family: "Roboto";
-    margin-top: 0;
-    margin-bottom: 0;
-    
-    font-weight: 100 ;
-}
+
 #headerBackgroundEnTete{
-    background-color: rgb(46,63,81);
+ background-color: rgb(46,63,81); 
 
     display:flex;
     justify-content: center;
+    gap:20%;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    height:20%;
    
 }
 
@@ -35,6 +45,7 @@ body{
     font-weight: 600;
     text-align: right;
     padding-top:18px;
+    margin-bottom:10px;
 }
 .headerWhiteTop{
     font-family: roboto;
@@ -45,8 +56,12 @@ body{
    
 }
 .headerSection-2{
+    display: flex;
+    flex-direction: column;
     text-align: right;
-    padding-left:40px
+    padding-left:40px;
+    align-items: flex-end;
+    padding-bottom: 20px;
 }
 
 .headerSpace{
@@ -64,4 +79,6 @@ a{
    a:visited {
     color: lightcoral;
 }
-
+a:hover{
+    color:green;
+}
