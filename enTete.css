@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /*the import allows the font-weight of roboto to be 300 for correct style*/
-/* to use the import, uou must have font-family:roboto and add a font-weight*/
-
-/* Ensure containers in the header has no padding or margin */
-body{
-    margin: 0;
-}
-
-
-
-
-
-
+/* to use the import, ou must have font-family:roboto and add a font-weight*/
 
 
 .headerBigText1{
@@ -24,6 +13,16 @@ body{
     line-height: 1.0;
     font-weight: 100 ;
     padding-bottom: 20px;
+}
+
+.headerBigText2{
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    font-weight: 100 ;
 }
 
 #headerBackgroundEnTete{
@@ -73,12 +72,25 @@ body{
 
 a{
     text-decoration: none;
-   
-   }
+    color: rgb(113, 150, 113);
+}
 
-   a:visited {
+a:visited{
     color: lightcoral;
 }
+
 a:hover{
+    color:green;
+}
+
+a.lienTitre{
+    color:white;
+}
+
+a.lienTitre:visited{
+    color: lightcoral;
+}
+
+a.lienTitre:hover{
     color:green;
 }
