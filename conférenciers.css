@@ -122,3 +122,12 @@ a.lienTexteImage
     position:relative;
     bottom:50px;
 }
+
+.bigPara{
+font-family: roboto;
+font-size: small;
+color: gray;
+font-weight: 600;
+
+}
+
