@@ -1,39 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-
 .piedDePage {
-display:flex;
-background-color: rgb(30, 60, 85);
-     height: 30px;
-    
-     padding: 10px;
-
-     align-items: flex-end;
-     justify-content: space-between;
-     position: fixed;
-     bottom: 0;
-     width: 100%;
-     padding: 20px
- }
-
- .greenTextPiedDePage{
-    color: rgb(113, 150, 113);
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: small;
-    padding-top: 50px;
-    width:200px;
-    margin-left: 400px; /* Push the element to the right edge */
- 
+   display:flex;
+   height: 80px;
+   padding: 10px;
+   align-items: flex-end;
+   justify-content: space-between;
+   
 }
 
- .whiteTextBox{
-    display:flex;
-    justify-content: flex-end;
-    gap:30px;
-    color:white;
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: small;
-    margin-right:350px;
- }
+.greenTextPiedDePage{
+   color: rgb(113, 150, 113);
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: small;
+   padding-top: 50px;
+   width:200px;
+   text-align: left;
+
+}
+
+.whiteTextBox{
+   display:flex;
+   justify-content: flex-end;
+   gap:30px;
+   color:white;
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: small;
+   text-align: right;
+}
+
+#piedDePageContainer{
+   background-color: rgb(30, 60, 85);
+   justify-content: center;
+   padding-right: 22%;
+   padding-left: 22%;
+}
+
+a.liensPiedDePage{
+   color:white;
+}
+
+a.liensPiedDePage:visited{
+   color: lightcoral;
+}
+
+a.liensPiedDePage:hover{
+   color: green;
+}
